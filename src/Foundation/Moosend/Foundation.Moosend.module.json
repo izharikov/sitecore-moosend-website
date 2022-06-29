@@ -1,0 +1,30 @@
+﻿{
+  "namespace": "Foundation.Moosend",
+  "items": {
+    "includes": [
+      {
+        "name": "Moosend List",
+        "path": "/sitecore/content/Global Data/Moosend List",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Foundation/Moosend"
+      },
+      {
+        "name": "Field types",
+        "path": "/sitecore/system/Field types/Moosend",
+        "database": "core"
+      },
+      {
+        "name": "Add User To Mailing List - Editor",
+        "path": "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/Add User To Mailing List",
+        "database": "core"
+      },
+      {
+        "name": "Add User To Mailing List - Submit Action",
+        "path": "/sitecore/system/Settings/Forms/Submit Actions/Add User To Mailing List"
+      }
+    ]
+  }
+}

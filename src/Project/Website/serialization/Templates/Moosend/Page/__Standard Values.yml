@@ -1,0 +1,58 @@
+﻿---
+ID: "dcaaad42-1ad0-49a7-a291-14ed29478db5"
+Parent: "80605078-a4dd-441e-9370-a1cb91c104b0"
+Template: "80605078-a4dd-441e-9370-a1cb91c104b0"
+Path: /sitecore/templates/Project/Moosend/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{423BE2A8-CBF8-4F57-BD09-0AEC575E375C}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{DBCD6D9F-A220-465A-B154-22DA0D1446F7}">
+        <r
+          id="{0145D2C9-5BB0-491B-8A50-CAFDC11DD5A8}"
+          ph="footer"
+          uid="{E25B936C-F1E0-429B-ACD1-382003C53545}" />
+        <r
+          id="{1A8D0658-FB8D-4749-ACB3-F3F60DBE9701}"
+          ph="navbar"
+          uid="{3820BC3A-78D7-4E06-8931-25F09B8F7A10}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220616T122908Z
+    - ID: "2d15a565-e865-4f8e-92fd-bc3541e93980"
+      Hint: Title
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "87154b0e-4d98-4e67-8ab3-5966b97ac31d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220619T222401Z

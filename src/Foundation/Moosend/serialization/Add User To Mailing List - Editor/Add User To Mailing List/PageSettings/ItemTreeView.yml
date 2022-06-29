@@ -1,0 +1,47 @@
+﻿---
+ID: "168ad333-7d95-499a-9677-47089296c554"
+Parent: "fc02bcc8-099c-4c7b-b673-2a7e51093263"
+Template: "aa697a95-4189-4015-8a0b-da76d6a83589"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/Add User To Mailing List/PageSettings/ItemTreeView
+SharedFields:
+- ID: "0cc7f24b-2013-46c6-8ae3-5233d094ff7c"
+  Hint: StaticData
+  Value: "{A7CB8B32-08B5-411B-81FA-6E251BB91D1B}"
+- ID: "4cec56f0-9fe2-4980-8085-62b0a0ab51ec"
+  Hint: Database
+  Value: $context_contentdatabase
+- ID: "e0f5c2e5-ea32-4463-aef5-925d4194b4a2"
+  Hint: IsCheckModeEnabled
+  Value: 
+- ID: "e46cf3aa-5ad6-4a61-ad2b-d9d5d6698b7d"
+  Hint: CheckMode
+  Value: Single
+- ID: "f2a83648-50d1-44b3-bea0-0f6124bf211c"
+  Hint: ShowHiddenItems
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170404T103808Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa2dcbe4-4ac5-47cb-ade9-1fba1b1c1622"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220629T170926Z

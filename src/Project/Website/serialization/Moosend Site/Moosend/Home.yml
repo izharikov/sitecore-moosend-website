@@ -1,0 +1,46 @@
+﻿---
+ID: "05c43056-f978-4e88-819c-fd27be6dcd21"
+Parent: "7df6e43e-eddf-4682-a2cb-a965fab5e8f6"
+Template: "80605078-a4dd-441e-9370-a1cb91c104b0"
+Path: /sitecore/content/Websites/Moosend/Home
+BranchID: "423be2a8-cbf8-4f57-bd09-0aec575e375c"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EED044E5-F618-4DBF-9BD8-4B7F6F5619FA}"
+          p:before="*"
+          s:ds="{157B7A95-8EB3-4ADC-BF41-1D40B59D8B77}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:ph="page-layout" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5363AC56-E3FF-4668-BFAA-3527061DB46A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220619T222418Z
+    - ID: "2d15a565-e865-4f8e-92fd-bc3541e93980"
+      Hint: Title
+      Value: Home
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7bc8e7a-04d4-44d7-91e5-dbc29a906879"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220619T230603Z

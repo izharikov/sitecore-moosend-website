@@ -1,0 +1,33 @@
+﻿services:
+  traefik:
+    volumes:
+      - ./docker/traefik:C:/etc/traefik
+  cm:
+    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-xp0-cm:${VERSION:-latest}
+    ports:
+      - "${SSH_DEBUG_PORT}:22"
+    build:
+      context: ./docker/build/cm
+      args:
+        PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xp0-cm:${SITECORE_VERSION}
+        TOOLS_IMAGE: ${TOOLS_IMAGE}
+        MANAGEMENT_SERVICES_IMAGE: ${MANAGEMENT_SERVICES_IMAGE}
+    volumes:
+      - ${LOCAL_DEPLOY_PATH}\website:C:\deploy
+      - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
+      - ${HOST_LICENSE_FOLDER}:C:\license
+    environment:
+      SITECORE_LICENSE_LOCATION: C:\license\license.xml
+      SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
+      Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
+      DATABASE: ${DATABASE:-web}
+      SITE_HOST: ${SITE_HOST}
+      CM_HOST: ${CM_HOST}
+      CD_HOST: ${CD_HOST}
+    entrypoint: powershell.exe -Command "& C:\tools\entrypoints\iis\Development.ps1"
+  mssql:
+    volumes:
+      - ${LOCAL_DATA_PATH}\mssql:c:\data
+  solr:
+    volumes:
+      - ${LOCAL_DATA_PATH}\solr:c:\data

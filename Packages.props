@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <PlatformVersion>10.2.*</PlatformVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Update="Sitecore.Nexus" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Kernel" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Mvc" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Mvc.Analytics" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.ExperienceForms.Mvc" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.ExperienceForms" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.ContentSearch" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.ContentSearch.Linq" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.ContentSearch.ContentExtraction" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Assemblies.Platform" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.XConnect" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.XConnect.Core" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.XConnect.Client" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.XConnect.Collection.Model" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Assemblies.XConnect.Web" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.ExperienceEditor" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.XConnect.Client.Configuration" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Analytics" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Speak.Components" Version="$(PlatformVersion)"/>
+
+        <PackageReference Update="RichardSzalay.Helix.Publishing.WebRoot" Version="1.5.6" />
+        
+        <PackageReference Update="Moosend.Wrappers.CSharpWrapper" Version="3.0.0" />
+    </ItemGroup>
+</Project>
