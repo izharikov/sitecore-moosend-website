@@ -15,7 +15,7 @@ SharedFields:
   Value: RichText
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Moosend.Feature.Components.Controllers.ComponentController,Moosend.Feature.Components
+  Value: Feature.Components.Controllers.ComponentController,Feature.Components
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a12dbc47-e958-4d67-9cf2-e7a96e08f8e2"
+      Value: "91019476-8806-4ac6-b146-7e157eb9c15a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220619T223540Z
+      Value: 20220701T123437Z

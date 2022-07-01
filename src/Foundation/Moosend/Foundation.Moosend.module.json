@@ -4,8 +4,7 @@
     "includes": [
       {
         "name": "Moosend List",
-        "path": "/sitecore/content/Global Data/Moosend List",
-        "scope": "SingleItem"
+        "path": "/sitecore/system/Settings/Forms/Meta Data/Moosend List"
       },
       {
         "name": "Templates",

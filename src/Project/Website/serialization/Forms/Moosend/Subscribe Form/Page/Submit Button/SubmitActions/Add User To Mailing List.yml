@@ -32,14 +32,14 @@ Languages:
         sitecore\Admin
     - ID: "8251a6fa-2e61-4e01-8832-8d99c69869b5"
       Hint: Description
-      Value: Default Subscribers List
+      Value: Sitecore Integration
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fe2d8d12-ab96-42cf-bda4-0e0f2f3d8231"
+      Value: "5bf26f51-80a5-4adb-b9d1-19ad5571f33e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220629T175025Z
+      Value: 20220701T184056Z

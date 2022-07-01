@@ -9,7 +9,7 @@ SharedFields:
   Value: Footer
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
-  Value: Moosend.Feature.Components.Controllers.NavigationController,Moosend.Feature.Components
+  Value: Feature.Components.Controllers.NavigationController,Feature.Components
 Languages:
 - Language: en
   Versions:
@@ -28,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "90f56bfb-b825-4c2b-9794-a1232cf3ac02"
+      Value: "fbf1d6ee-1eeb-4e32-a8e6-ca035de935cb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220616T141521Z
+      Value: 20220701T123427Z

@@ -6,7 +6,7 @@ Path: /sitecore/layout/Layouts/Project/Moosend/Layout
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /Views/Moosend/Layouts/MoosendLayout.cshtml
+  Value: /Views/Website/Layouts/MoosendLayout.cshtml
 Languages:
 - Language: en
   Versions:
@@ -25,11 +25,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a0695cae-8ed4-421c-b5ff-aca26d52f1e9"
+      Value: "f62a0aa6-1760-4c24-a57c-ad8b115d31a3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220616T134658Z
+      Value: 20220701T123344Z

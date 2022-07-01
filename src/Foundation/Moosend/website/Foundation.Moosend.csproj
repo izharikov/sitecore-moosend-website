@@ -54,11 +54,13 @@
     <ItemGroup>
         <Compile Include="Configurators\MoosendConfigurator.cs" />
         <Compile Include="Controls\MoosendMailingListField.cs" />
+        <Compile Include="Models\AddUserToMailingListData.cs" />
         <Compile Include="Models\MailingList.cs" />
         <Compile Include="Models\MoosendSettings.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Services\IMailingListService.cs" />
         <Compile Include="Services\MailingListService.cs" />
+        <Compile Include="SubmitActions\AddUserToMailingList.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="App_Config\Include\Foundation\Foundation.Moosend.config" />

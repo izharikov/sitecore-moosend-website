@@ -20,6 +20,7 @@ namespace Foundation.Moosend.Configurators
                 };
             });
             serviceCollection.AddScoped<IMailingListsApi, MailingListsApi>();
+            serviceCollection.AddScoped<ISubscribersApi, SubscribersApi>();
             serviceCollection.AddScoped<IMailingListService, MailingListService>();
         }
     }

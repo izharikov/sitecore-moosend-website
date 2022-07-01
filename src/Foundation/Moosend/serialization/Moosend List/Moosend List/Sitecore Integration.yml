@@ -1,12 +1,12 @@
 ﻿---
-ID: "a7cb8b32-08b5-411b-81fa-6e251bb91d1b"
-Parent: "098cc626-0524-4758-9520-758a3edf7067"
-Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/system/Settings/Forms/Meta Data/Moosend List
+ID: "d37e3df4-ad8b-4cc8-a4ac-faf3202c688b"
+Parent: "a7cb8b32-08b5-411b-81fa-6e251bb91d1b"
+Template: "d2706f09-2127-45e2-aa90-7271b4bddd73"
+Path: /sitecore/system/Settings/Forms/Meta Data/Moosend List/Sitecore Integration
 SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: "{D2706F09-2127-45E2-AA90-7271B4BDDD73}"
+- ID: "429ca931-fc58-4f8c-abae-2b7b9b550c85"
+  Hint: List
+  Value: "8de9649c-2e47-4aaa-a563-93d2063eff77"
 Languages:
 - Language: en
   Versions:
@@ -14,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220629T161507Z
+      Value: 20220629T161540Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +25,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2f849195-ae25-4219-a7bf-dda6d20c844c"
+      Value: "941e07a2-c553-400b-8f54-8638d06fde10"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220701T201224Z
+      Value: 20220701T123726Z
