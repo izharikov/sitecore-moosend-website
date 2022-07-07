@@ -41,6 +41,9 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="Sitecore.Services.Infrastructure">
+          <HintPath>C:\Users\izh\.nuget\packages\sitecore.services.infrastructure\10.2.0\lib\net48\Sitecore.Services.Infrastructure.dll</HintPath>
+        </Reference>
         <Reference Include="System.Windows.Forms" />
         <Reference Include="System.Xml" />
         <Reference Include="System.Xml.Linq" />
@@ -50,9 +53,11 @@
         <PackageReference Include="Sitecore.ExperienceForms" />
         <PackageReference Include="Sitecore.ExperienceForms.Mvc" />
         <PackageReference Include="Sitecore.Mvc" />
+        <PackageReference Include="Sitecore.Services.Infrastructure" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Configurators\MoosendConfigurator.cs" />
+        <Compile Include="Controllers\MoosendServiceApiController.cs" />
         <Compile Include="Controls\MoosendMailingListField.cs" />
         <Compile Include="Models\AddUserToMailingListData.cs" />
         <Compile Include="Models\MailingList.cs" />
@@ -64,6 +69,7 @@
     </ItemGroup>
     <ItemGroup>
       <Content Include="App_Config\Include\Foundation\Foundation.Moosend.config" />
+      <Content Include="sitecore\shell\client\Applications\FormsBuilder\Layouts\Actions\MoosendAddToList.js" />
     </ItemGroup>
     <PropertyGroup>
         <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,4 +1,5 @@
-﻿using Foundation.Moosend.Models;
+﻿using Foundation.Moosend.Controllers;
+using Foundation.Moosend.Models;
 using Foundation.Moosend.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Moosend.Wrappers.CSharpWrapper.Api;
@@ -22,6 +23,7 @@ namespace Foundation.Moosend.Configurators
             serviceCollection.AddScoped<IMailingListsApi, MailingListsApi>();
             serviceCollection.AddScoped<ISubscribersApi, SubscribersApi>();
             serviceCollection.AddScoped<IMailingListService, MailingListService>();
+            serviceCollection.AddTransient<MoosendServiceApiController>();
         }
     }
 }

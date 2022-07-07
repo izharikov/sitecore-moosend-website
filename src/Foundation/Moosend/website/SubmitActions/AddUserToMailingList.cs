@@ -1,10 +1,7 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using Foundation.Moosend.Models;
 using Foundation.Moosend.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Sitecore;
-using Sitecore.Data;
 using Sitecore.DependencyInjection;
 using Sitecore.ExperienceForms.Models;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
@@ -21,7 +18,7 @@ namespace Foundation.Moosend.SubmitActions
 
         protected override bool Execute(AddUserToMailingListData data, FormSubmitContext formSubmitContext)
         {
-            var list = GetMoosendMailingList(data);
+            var list = data.List;
             var email = formSubmitContext.Fields.OfType<InputViewModel<string>>().FirstOrDefault(x => x.Name == "Email")
                 ?.Value;
             if (!string.IsNullOrEmpty(list) && !string.IsNullOrEmpty(email))
@@ -30,17 +27,6 @@ namespace Foundation.Moosend.SubmitActions
                 return service.AddToMailingList(list, email);
             }
             return false;
-        }
-
-        private string GetMoosendMailingList(AddUserToMailingListData data)
-        {
-            if (data?.ReferenceId == null || data.ReferenceId == Guid.Empty)
-            {
-                return null;
-            }
-
-            var moosendListItem = Context.Database.GetItem(new ID(data.ReferenceId));
-            return moosendListItem?.Fields["List"]?.Value;
         }
     }
 }

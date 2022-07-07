@@ -7,7 +7,7 @@ SharedFields:
 - ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
   Hint: Parameters
   Value: |
-    {"referenceId":"{D37E3DF4-AD8B-4CC8-A4AC-FAF3202C688B}"}
+    {"list":"8de9649c-2e47-4aaa-a563-93d2063eff77"}
 - ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
   Hint: Submit Action
   Value: "{8CB85A9E-1398-4696-B705-EA94F32C326B}"
@@ -35,11 +35,11 @@ Languages:
       Value: Sitecore Integration
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5bf26f51-80a5-4adb-b9d1-19ad5571f33e"
+      Value: "fb2055de-588e-4692-a7a5-8d4568c04ffe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220701T184056Z
+      Value: 20220707T142432Z

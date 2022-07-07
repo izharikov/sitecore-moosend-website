@@ -16,8 +16,8 @@
         "database": "core"
       },
       {
-        "name": "Add User To Mailing List - Editor",
-        "path": "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/Add User To Mailing List",
+        "name": "Moosend Add To List",
+        "path": "/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/Moosend Add To List",
         "database": "core"
       },
       {

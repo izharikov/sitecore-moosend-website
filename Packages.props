@@ -23,6 +23,7 @@
         <PackageReference Update="Sitecore.XConnect.Client.Configuration" Version="$(PlatformVersion)"/>
         <PackageReference Update="Sitecore.Analytics" Version="$(PlatformVersion)"/>
         <PackageReference Update="Sitecore.Speak.Components" Version="$(PlatformVersion)"/>
+        <PackageReference Update="Sitecore.Services.Infrastructure" Version="$(PlatformVersion)"/>
 
         <PackageReference Update="RichardSzalay.Helix.Publishing.WebRoot" Version="1.5.6" />
         

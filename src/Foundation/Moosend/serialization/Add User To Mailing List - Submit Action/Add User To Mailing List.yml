@@ -12,7 +12,7 @@ SharedFields:
   Value: Foundation.Moosend.SubmitActions.AddUserToMailingList, Foundation.Moosend
 - ID: "d83b5c6b-7230-419f-bd75-4e2d20c87a18"
   Hint: Editor
-  Value: "{4EADC152-AE63-4D6A-B261-2D372F11DA5A}"
+  Value: "{59FA5D61-70BD-4F83-A9C6-372AD350E26A}"
 Languages:
 - Language: en
   Fields:
@@ -35,11 +35,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01ba2f33-5f16-4a54-b3c9-59e07444313d"
+      Value: "07e77a5a-b65d-49fe-b75f-9111dddc8fbd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220701T094350Z
+      Value: 20220707T095324Z

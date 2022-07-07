@@ -29,6 +29,10 @@ namespace Foundation.Moosend.Services
             {
                 Name = x.Name,
                 Id = x.ID,
+                CustomProperties = x.CustomFieldsDefinition.Select(y => new CustomProperty()
+                {
+                    Name = y.Name,
+                }),
             });
         }
 
