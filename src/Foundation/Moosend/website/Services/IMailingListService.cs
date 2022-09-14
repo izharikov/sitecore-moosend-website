@@ -5,7 +5,7 @@ namespace Foundation.Moosend.Services
 {
     public interface IMailingListService
     {
-        IEnumerable<MailingList> GetAll();
-        bool AddToMailingList(string mailingList, string email);
+        IEnumerable<MailingListJsonModel> GetAll();
+        bool AddToMailingList(string mailingList, string email, string name, object customFields, IEnumerable<string> tags);
     }
 }

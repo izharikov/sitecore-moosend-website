@@ -1,7 +1,7 @@
 ﻿(function (speak) {
     var parentApp = window.parent.Sitecore.Speak.app.findApplication('EditActionSubAppRenderer');
 
-    var fields = ["Email", "Name"];
+    var fields = ["Email", "Name", "Tags"];
 
     speak.pageCode(["underscore"],
         function (_) {

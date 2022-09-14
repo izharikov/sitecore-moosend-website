@@ -51,7 +51,11 @@
         <PackageReference Include="Sitecore.Mvc" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Processors\RenderFieldWrapper.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="App_Config\Include\Foundation\Foundation.Forms.config" />
     </ItemGroup>
     <PropertyGroup>
         <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

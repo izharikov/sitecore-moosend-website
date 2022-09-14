@@ -2,7 +2,7 @@
 
 namespace Foundation.Moosend.Models
 {
-    public class MailingList
+    public class MailingListJsonModel
     {
         public string Id { get; set; }
         public string Name { get; set; }

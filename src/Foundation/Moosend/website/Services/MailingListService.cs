@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Foundation.Moosend.Models;
+using Foundation.Moosend.Models.Api;
 using Moosend.Wrappers.CSharpWrapper.Api;
 using Moosend.Wrappers.CSharpWrapper.Model;
-using MailingList = Foundation.Moosend.Models.MailingList;
 
 namespace Foundation.Moosend.Services
 {
@@ -21,11 +21,11 @@ namespace Foundation.Moosend.Services
             _subscribersApi = subscribersApi;
         }
 
-        public IEnumerable<MailingList> GetAll()
+        public IEnumerable<MailingListJsonModel> GetAll()
         {
             var response =
                 _mailingListsApi.GettingAllActiveMailingLists(_moosendSettings.Format, _moosendSettings.ApiKey);
-            return response.Context.MailingLists.Select(x => new MailingList()
+            return response.Context.MailingLists.Select(x => new MailingListJsonModel()
             {
                 Name = x.Name,
                 Id = x.ID,
@@ -36,10 +36,13 @@ namespace Foundation.Moosend.Services
             });
         }
 
-        public bool AddToMailingList(string mailingList, string email)
+        public bool AddToMailingList(string mailingList, string email, string name, object customFields, IEnumerable<string> tags)
         {
             var response = _subscribersApi.AddingSubscribersWithHttpInfo(_moosendSettings.Format, mailingList,
-                _moosendSettings.ApiKey, new AddingSubscribersRequest(email));
+                _moosendSettings.ApiKey, new CustomAddingSubscribersRequest(email, name, customFields)
+                {
+                    Tags = tags,
+                });
             return response.StatusCode >= 200 && response.StatusCode <= 299;
         }
     }
