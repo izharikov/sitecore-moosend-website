@@ -21,16 +21,21 @@ namespace Foundation.Moosend.SubmitActions
         protected override bool Execute(AddUserToMailingListData data, FormSubmitContext formSubmitContext)
         {
             var list = data.List;
-            var email = GetFieldValue(formSubmitContext, data.Mapping?[Constants.Email]) as string;
+            string emailFieldId = null, nameFieldId = null, tagsFieldId = null;
+            data.Mapping?.TryGetValue(Constants.Email, out emailFieldId);
+            data.Mapping?.TryGetValue(Constants.Name, out nameFieldId);
+            data.Mapping?.TryGetValue(Constants.Tags, out tagsFieldId);
+            var email = GetFieldValue(formSubmitContext, emailFieldId) as string;
             if (string.IsNullOrEmpty(list) || string.IsNullOrEmpty(email))
             {
+                formSubmitContext.Abort();
                 return false;
             }
 
             var service = ServiceLocator.ServiceProvider.GetService<IMailingListService>();
 
-            var name = GetFieldValue(formSubmitContext, data.Mapping?[Constants.Name]) as string;
-            var tags = GetFieldValue(formSubmitContext, data.Mapping?[Constants.Tags]) as IEnumerable<string>;
+            var name = GetFieldValue(formSubmitContext, nameFieldId) as string;
+            var tags = GetFieldValue(formSubmitContext, tagsFieldId) as IEnumerable<string>;
             var customFields = GetCustomFields(data, formSubmitContext);
             
             var success = service.AddToMailingList(list, email, name, customFields, tags);
@@ -40,6 +45,10 @@ namespace Foundation.Moosend.SubmitActions
         private static IList<string> GetCustomFields(AddUserToMailingListData data, FormSubmitContext formSubmitContext)
         {
             var customFields = new List<string>();
+            if (data.Mapping == null)
+            {
+                return customFields;
+            }
             foreach (var pair in data.Mapping.Where(x => !Constants.SpecialFields.Contains(x.Key)))
             {
                 var value = GetFieldValue(formSubmitContext, pair.Value);
@@ -54,6 +63,10 @@ namespace Foundation.Moosend.SubmitActions
 
         private static object GetFieldValue(FormSubmitContext formSubmitContext, string fieldId)
         {
+            if (string.IsNullOrEmpty(fieldId))
+            {
+                return null;
+            }
             var field = formSubmitContext.Fields.FirstOrDefault(x => x.ItemId == fieldId);
             switch (field)
             {

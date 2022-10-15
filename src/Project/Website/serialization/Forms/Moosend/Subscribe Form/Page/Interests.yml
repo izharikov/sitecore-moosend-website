@@ -1,0 +1,54 @@
+﻿---
+ID: "3e8e4de6-80c9-4d93-b81e-95023176a1a2"
+Parent: "874e5f09-6b19-4a72-a295-94e6acb398c9"
+Template: "5b672865-55d2-413e-b699-fdfc7e732ccf"
+Path: /sitecore/Forms/Moosend/Subscribe Form/Page/Interests
+SharedFields:
+- ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
+  Hint: Label Css Class
+  Value: 
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{D86A361A-D4FF-46B2-9E97-A37FC5B1FE1A}"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: 
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: E598A1F093E54CA79081BF50DBCD66E0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220914T225115Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: Interests
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "529ad798-e762-4ae4-8281-2dfc5bca3c53"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221015T120352Z

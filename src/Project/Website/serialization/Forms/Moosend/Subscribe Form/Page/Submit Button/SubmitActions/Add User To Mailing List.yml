@@ -7,7 +7,7 @@ SharedFields:
 - ID: "5c796924-3f06-4d1f-8510-8ad9a4244477"
   Hint: Parameters
   Value: |
-    {"list":"8de9649c-2e47-4aaa-a563-93d2063eff77"}
+    {"list":"8de9649c-2e47-4aaa-a563-93d2063eff77","mapping":{"Email":"85cae71a-bf16-4eba-8e7b-fa2035b61bf5","Name":"ec5f7dec-425a-408d-b4ac-325f423422e5","Tags":"3e8e4de6-80c9-4d93-b81e-95023176a1a2","Birthdate":"b7bf5fba-282e-4abe-9bee-9dbda28d99cb","Notes":"1dc2ce99-7aea-4bde-b22f-d3ccc48c6d2c"}}
 - ID: "abc57b6d-5542-4ab9-a889-106225a032e6"
   Hint: Submit Action
   Value: "{8CB85A9E-1398-4696-B705-EA94F32C326B}"
@@ -43,3 +43,55 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20220707T142432Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T162144Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8251a6fa-2e61-4e01-8832-8d99c69869b5"
+      Hint: Description
+      Value: Sitecore Integration
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc0b3de0-5402-42e2-901f-4e15cd6e36c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220914T225458Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220629T162144Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8251a6fa-2e61-4e01-8832-8d99c69869b5"
+      Hint: Description
+      Value: Sitecore Integration
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a002739-2a86-44cb-b91c-8399524447a2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221015T120352Z
