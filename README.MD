@@ -18,10 +18,12 @@
 - [x] Custom properties mapping to Sitecore Form fields
 - [x] SMTP emails send
 
-## Installation
+## Local Installation
 ```powershell
-.\init.ps1
-docker-compose up -d
+.\init.ps1                  # init environment
+docker-compose up -d        # start docker
+dotnet tool restore         # restore sitecore cli tool
+dotnet sitecore ser push    # push all serialized items
 ```
 
 ### API key
