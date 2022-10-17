@@ -14,7 +14,7 @@ Languages:
     Fields:
     - ID: "240acdcd-c405-4e49-a96a-b3caab843920"
       Hint: Text
-      Value: Select list
+      Value: Select list and specify mapping
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200914T025903Z
@@ -28,11 +28,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3ed9ecef-1b74-4d56-add5-56ae8cc761e0"
+      Value: "ebc0d7b7-c837-4e40-b71d-ad6c4bc0eb7f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220707T095855Z
+      Value: 20221017T210447Z

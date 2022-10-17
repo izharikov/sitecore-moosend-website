@@ -38,14 +38,14 @@
                     
                     var formFields = this.FormClientApi.getFields();
                     
-                    var $sitecoreFormFieldsSelector = $(`<select style="margin: 5px;">
+                    var $sitecoreFormFieldsSelector = $(`<select class="form-control sc-droplist" style="margin: 5px;">
 <option value=""></option>
 </select>`);
                     for (var i = 0; i < formFields.length; i++){
                         $sitecoreFormFieldsSelector.append(`<option value="${formFields[i].itemId}">${formFields[i].name}</option>`);
                     }
 
-                    this.$Mapping.children().hide();
+                    this.$Mapping.children('[data-fieldname]').hide();
                     
                     for (var i = 0; i < currentFields.length; i++) {
                         var currentField = currentFields[i];
@@ -55,7 +55,7 @@
                             continue;
                         }
                         var $mapping = $(`
-   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  sc-bottom-padding" data-fieldname="${currentField}">
+   <div data-fieldname="${currentField}">
       <div title="${currentField}:">
          <div class="sc-formlabeltop visible-xs">
             <div class="sc-global-isrequired"> 
@@ -151,7 +151,9 @@
                 },
 
                 renderMappingPart: function () {
-                    this.$Mapping = $('<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  sc-bottom-padding">Moosend fields mapping:</div>');
+                    this.$Mapping = $('<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  sc-bottom-padding">' +
+                        '<p style="margin: 4px 0 12px;">Sitecore Send fields mapping:</p>' +
+                        '</div>');
                     $(this.MessageInfoForm.FormRoot.el).append(this.$Mapping)
                 },
             };

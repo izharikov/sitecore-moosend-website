@@ -1,0 +1,42 @@
+﻿---
+ID: "166bdea8-188c-4e91-806e-5684748f050b"
+Parent: "07f399be-8d8d-451d-abd8-dedd7b578f5c"
+Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
+Path: /sitecore/Forms/Moosend/Subscribe Form/Page/Your Interests/Settings/Datasource/Education
+SharedFields:
+- ID: "3a07c171-9bca-464d-8670-c5703c6d3f11"
+  Hint: Value
+  Value: Education
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Education
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220914T225116Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94c7c467-0c67-4c68-9c5d-184f6933893e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220914T225458Z

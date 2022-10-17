@@ -1,8 +1,8 @@
 ﻿---
-ID: "1dc2ce99-7aea-4bde-b22f-d3ccc48c6d2c"
-Parent: "874e5f09-6b19-4a72-a295-94e6acb398c9"
-Template: "d8386d04-c1e3-4cd3-9227-9e9f86ef3c88"
-Path: /sitecore/Forms/Moosend/Subscribe Form/Page/Notes
+ID: "1effee0e-22d2-4c8d-93f3-080b8906004a"
+Parent: "f1be16cf-0af5-4005-a843-213853c25ae3"
+Template: "fc18f915-eac6-460a-8777-6e1376a9ea09"
+Path: /sitecore/Forms/Moosend/Subscribe Form/Page(2)/Text
 SharedFields:
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
   Hint: Conditions
@@ -10,16 +10,13 @@ SharedFields:
     {"fieldConditions":[]}
 - ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
   Hint: Css Class
-  Value: " form-control"
+  Value: " text-center"
 - ID: "84ece662-5034-40cb-9c60-744db64bb294"
   Hint: Field Key
-  Value: A001D369ABB84C1CA4CA7A8AED421587
-- ID: "9f7da002-7b86-436b-8dda-7efe5837b88e"
-  Hint: Min Length
-  Value: 0
+  Value: 9E22CEC9548C4B5EBB377300479EC98B
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -27,7 +24,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220914T225405Z
+      Value: 20221015T151250Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -36,16 +33,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Admin
-    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
-      Hint: Title
-      Value: Notes
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8e5918c7-51db-4714-bbcc-8eb83be1aa24"
+      Value: "6a1218ce-4602-475a-b329-e51727545e0f"
+    - ID: "9666782b-21bb-40ce-b38f-8f6c53fa5070"
+      Hint: Text
+      Value: "Thanks for being with us!"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221015T120352Z
+      Value: 20221017T210210Z

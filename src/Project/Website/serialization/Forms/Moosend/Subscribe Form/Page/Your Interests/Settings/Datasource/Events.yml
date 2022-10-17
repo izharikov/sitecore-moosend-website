@@ -1,27 +1,27 @@
 ﻿---
-ID: "fd45dc6d-22ad-469e-bdc2-6f78d2ebaece"
+ID: "bbedcab8-4323-43cf-838b-b23221118264"
 Parent: "07f399be-8d8d-451d-abd8-dedd7b578f5c"
 Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: /sitecore/Forms/Moosend/Subscribe Form/Page/Interests/Settings/Datasource/Sport
+Path: /sitecore/Forms/Moosend/Subscribe Form/Page/Your Interests/Settings/Datasource/Events
 SharedFields:
 - ID: "3a07c171-9bca-464d-8670-c5703c6d3f11"
   Hint: Value
-  Value: Sport
+  Value: Events
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 0
+  Value: 300
 Languages:
 - Language: en
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Sport
+    Value: Events
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20220914T225115Z
+      Value: 20220914T225116Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,7 +32,7 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "907f5ec5-2dbe-4753-a449-38c965782d04"
+      Value: "806b7c46-698e-4bc4-b465-cf97092f059c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

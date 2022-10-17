@@ -1,21 +1,10 @@
 ﻿---
-ID: "c0e89623-09ba-4e30-8bcf-c3d5dc5d6379"
-Parent: "07f399be-8d8d-451d-abd8-dedd7b578f5c"
-Template: "b3bdfe59-6667-4432-b261-05d0e3f7fdf6"
-Path: /sitecore/Forms/Moosend/Subscribe Form/Page/Interests/Settings/Datasource/Technologies
-SharedFields:
-- ID: "3a07c171-9bca-464d-8670-c5703c6d3f11"
-  Hint: Value
-  Value: Technologies
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+ID: "07f399be-8d8d-451d-abd8-dedd7b578f5c"
+Parent: "5f75e2e2-824c-4f05-bb44-9f46a7bffed3"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/Forms/Moosend/Subscribe Form/Page/Your Interests/Settings/Datasource
 Languages:
 - Language: en
-  Fields:
-  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
-    Hint: __Display name
-    Value: Technologies
   Versions:
   - Version: 1
     Fields:
@@ -32,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01bcb323-79af-4b9f-97c5-dfa901680022"
+      Value: "10633d06-7922-4f68-b047-729ea960ea4d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220914T225458Z
+      Value: 20220914T225115Z
