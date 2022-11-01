@@ -12,8 +12,8 @@ namespace Foundation.Moosend.Models.Api
         {
         }
 
-        public CustomAddingSubscribersRequest(string Email = null, string Name = null, object CustomFields = null) :
-            base(Email, Name, CustomFields)
+        public CustomAddingSubscribersRequest(string email = null, string name = null, object customFields = null) :
+            base(email, name, customFields)
         {
         }
 

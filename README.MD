@@ -1,4 +1,7 @@
-﻿# Sitecore Forms integration with Sitecore Send (Moosend)
+﻿- https://www.brimit.com/blog/sitecore-send-3-rest-api
+- https://www.brimit.com/blog/sitecore-send-4-forms-integration
+
+# Sitecore Forms integration with Sitecore Send (Moosend)
 - Custom Sitecore Form submit action with mapping form fields to Sitecore Send fields.
 - SMTP configuration with Sitecore Send
 
